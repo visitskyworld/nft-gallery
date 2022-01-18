@@ -15,7 +15,7 @@ Package basic things like fetch all NFTs for specific wallet. Designed to be use
 ```
  import {                                        
   getParsedNftAccountsByOwner                    
-} from "src/getParsedNftAccountsByOwner";                      
+} from "./src/getParsedNftAccountsByOwner";                      
                                                  
 const tokenList = getParsedNftAccountsByOwner();
 ```
