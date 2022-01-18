@@ -11,11 +11,11 @@ For react - bunch of hooks and utils to be used within React app.
 
 `getParsedNftAccountsByOwner` - return parsed list of NFTs (SPL Tokens) for given wallet public address. Each item in array have all data specified on the blockchain. The NFT metadata stored separately, you need to pick uri property for each token and fetch data youself.
 
-` import {                                        `
-`  getParsedNftAccountsByOwner                    `
-`} from "@nfteyez/sol-rayz";                      `
-`                                                 `
-`const tokenList = getParsedNftAccountsByOwner(); `
+` import {                                        
+  getParsedNftAccountsByOwner                    
+} from "@nfteyez/sol-rayz";                      
+                                                 
+const tokenList = getParsedNftAccountsByOwner(); `
 
 `createConnectionConfig` - method for creating a "connection" with Solana, have two params: clusterApi and commitment.
 
