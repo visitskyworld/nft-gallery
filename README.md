@@ -1,11 +1,12 @@
-Package created to simplify the process of parsing NFTs on Solana.
+#About this
+
+`Package created to simplify the process of parsing NFTs on Solana.`
 
 It consists of:
 
 Package basic things like fetch all NFTs for specific wallet. Designed to be used in browser or Node.JS env.
 
-Soon:
-For react - bunch of hooks and utils to be used within React app.
+`Soon`: For react - bunch of hooks and utils to be used within React app.
 
 # How to use
 
